@@ -37,7 +37,6 @@ public class ShakeBounce_ButtonEffect : MonoBehaviour, IPointerDownHandler, IPoi
             shakeTween.Kill();
         }
 
-        // 튕기는 스케일 효과
         Sequence seq = DOTween.Sequence();
         seq.Append(rectTransform.DOScale(bounceScale, bounceDuration).SetEase(Ease.OutBack));
         seq.Append(rectTransform.DOScale(1f, bounceDuration).SetEase(Ease.InSine));
