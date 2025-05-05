@@ -2,6 +2,32 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
+
+
+# Custom gitignore
+# Fusion
+Assets/Photon*/
+Assets/Fusion*/
+
+# TMP Pro
+Assets/TextMesh Pro*/
+
+# Dotween
+Assets/Plugins/Demigiant/DOTween/
+
+# Pixel Font
+Assets/Thaleah_PixelFont*/
+
+
+
+
+
+
+
+
+
+
+
 .utmp/
 /[Ll]ibrary/
 /[Tt]emp/
